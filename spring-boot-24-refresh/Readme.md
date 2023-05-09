@@ -1,5 +1,5 @@
 # Project to demonstrate spring boot refresh issue
-# Problem: Main/Application context's Environment is not providing application.properties property source to the call backs of implementations of ApplicationContextInitializer<ConfigurableApplicationContext> during **/actuator/refresh** end point call
+# Problem: Main/Application context's Environment is not providing application.properties based property source to the call backs of implementations of ApplicationContextInitializer<ConfigurableApplicationContext> during **/actuator/refresh** end point call
 
 * <b>application.properties</b> based property source is not available in the call back methods of the registered custom implementation of 
      ```ApplicationContextInitializer<ConfigurableApplicationContext> ``` 
