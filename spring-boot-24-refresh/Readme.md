@@ -55,11 +55,15 @@
 
 ## Runtime 
 
-Project Root: spring-boot-24-refresh
+**Project Root: spring-boot-24-refresh
 Build Tool: Maven
-Java version: 8+
+Java version: 8+**
 
-Test results: The test case defined in SpringBoot21RefreshApplicationTest will fail
+**Test results: The test case defined in SpringBoot21RefreshApplicationTest will fail**
+
+## Debugging Reference
+Method of interest for debug is `public void initialize(ConfigurableApplicationContext applicationContext)` in the class `CustomApplicationContextInitializer`
+
 
 
 

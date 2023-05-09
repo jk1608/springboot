@@ -1,8 +1,8 @@
 # Spring Boot Refresh end point behaviour in Spring boot 2.1.x 
 
-*  **application.properties** based property source will be available for reference in the call back method of
-   **CustomApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext>**
-  during the start up of the application and during the /actuator/refresh end point call as well.
+*  **application.properties** based property source will be available for reference in the call back method of the registered custom implementation of
+   ```ApplicationContextInitializer<ConfigurableApplicationContext> ```
+   in spring boot app for customization during the start-up of the application and during the /actuator/refresh end point call as well.
 *  This can be examined through the test case **applicationPropertiesTest()** defined in the test class  **SpringBoot21RefreshApplicationTest** as this test case will pass.
 * To run the test case, please checkout the code from 2.1.x branch.
 
@@ -40,11 +40,14 @@
 
 ## Runtime
 
-Project Root: spring-boot-21-refresh
+**Project Root: spring-boot-21-refresh
 Build Tool: Maven
-Java version: 8+
+Java version: 8+**
 
-Test results: The test case defined in SpringBoot21RefreshApplicationTest will pass
+**Test results: The test case defined in SpringBoot21RefreshApplicationTest will pass**
+
+## Debugging Reference
+Method of interest for debug is `public void initialize(ConfigurableApplicationContext applicationContext)` in the class `CustomApplicationContextInitializer`
 
 
 
