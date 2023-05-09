@@ -3,7 +3,7 @@
 *  **application.properties** based property source will be available for reference in the call back method of
    **CustomApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext>**
   during the start up of the application and during the /actuator/refresh end point call as well.
-*  This can be examined through the test case **applicationPropertiesTest()** defined in the test class  **ApplicationPropertiesTest** as this test case will pass.
+*  This can be examined through the test case **applicationPropertiesTest()** defined in the test class  **SpringBoot21RefreshApplicationTest** as this test case will pass.
 * To run the test case, please checkout the code from 2.1.x branch.
 
 * List of property source names obtained during app start up, and this list has application.properties:

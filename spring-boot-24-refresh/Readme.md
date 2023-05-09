@@ -8,7 +8,7 @@
     This behaviour is same from Spring Boot 2.4.x version to the latest spring boot version 3.0.x with their respective compatible cloud version.
     This issue not seen from Spring Boot version 2.1.x to Spring Boot version 2.3.x with their respective compatible cloud versions.
     
-*    We can examine this through the test case **applicationPropertiesTest()** defined in the test class **ApplicationPropertiesTest**. 
+*    We can examine this through the test case **applicationPropertiesTest()** defined in the test class **SpringBoot24RefreshApplicationTest**. 
      Similar kind of test will fail with spring boot 2.5.x, spring boot 2.6.x, spring boot 2.7.x and spring boot 3.0.x as well.
      However, the similar kind of test will not fail with spring boot 2.1.x, spring boot 2.2.x and spring boot 2.3.x with their 
      respective spring cloud compatibility version. So there is a change in behaviour from spring boot 2.3.x to spring boot 2.4.x.
