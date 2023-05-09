@@ -38,18 +38,20 @@
     
 * List of property source names obtained during /actuator/refresh call (with HTTP POST call), and this list doesn't has application.properties based property source name:
 
-      -------------------------Property source names obtained during call back--------------------------------
-      Property source name: configurationProperties
-      Property source name: refreshArgs
-      Property source name: systemProperties
-      Property source name: systemEnvironment
-      Property source name: defaultProperties
-      Property source name: Config resource 'class path resource [bootstrap.properties]' via location 'optional:classpath:/'
-      Property source name: springCloudDefaultProperties
-      Property source name: random
-      Property source name: springCloudClientHostInfo
-      Property source name: cachedrandom
-      -------------------------END of Property source names obtained during call back block------------------
+      `
+        -------------------------Property source names obtained during call back--------------------------------
+        Property source name: configurationProperties
+        Property source name: refreshArgs
+        Property source name: systemProperties
+        Property source name: systemEnvironment
+        Property source name: defaultProperties
+        Property source name: Config resource 'class path resource [bootstrap.properties]' via location 'optional:classpath:/'
+        Property source name: springCloudDefaultProperties
+        Property source name: random
+        Property source name: springCloudClientHostInfo
+        Property source name: cachedrandom
+        -------------------------END of Property source names obtained during call back block------------------
+    `
 
 * The above output can be seen on console when we run the test case **SpringBoot24RefreshApplicationTest**
 
