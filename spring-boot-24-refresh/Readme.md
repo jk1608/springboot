@@ -15,8 +15,6 @@
 
 *    Not sure whether it is a bug or intentional behaviour from Spring Boot 2.4.x
 
-*   To see the behaviour of Spring boot 2.1.x, please check out the branch 2.1.x and that has test case that will pass as the callback 
-    will always have reference to **application.properties** based property source 
 
   * List of property source names obtained during app start up, and this list has application.properties:
 
