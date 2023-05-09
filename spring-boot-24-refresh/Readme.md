@@ -21,7 +21,8 @@
   * List of property source names obtained during app start up, and this list has application.properties:
 
 
-    `
+        `
+
         -------------------------Property source names obtained during call back--------------------------------
         Property source name: configurationProperties
         Property source name: Inlined Test Properties
@@ -34,9 +35,12 @@
         Property source name: springCloudDefaultProperties
         Property source name: cachedrandom
         -------------------------END of Property source names obtained during call back block------------------
-    `
-    
+        
+        `
+ 
+   
 * List of property source names obtained during /actuator/refresh call (with HTTP POST call), and this list doesn't has application.properties based property source name:
+
 
       `
         -------------------------Property source names obtained during call back--------------------------------
